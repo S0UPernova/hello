@@ -1,0 +1,132 @@
+Started GET "/" for ::1 at 2021-07-26 08:10:15 -0700
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pi/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pi/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 33.5ms | Allocations: 576)
+Completed 200 OK in 1861ms (Views: 50.1ms | ActiveRecord: 0.0ms | Allocations: 4676)
+
+
+Started GET "/" for ::1 at 2021-07-26 08:20:54 -0700
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pi/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pi/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 27.4ms | Allocations: 469)
+Completed 200 OK in 61ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 3449)
+
+
+Started GET "/" for ::1 at 2021-09-06 20:05:37 -0700
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pi/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pi/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 42.5ms | Allocations: 469)
+Completed 200 OK in 92ms (Views: 57.6ms | ActiveRecord: 0.0ms | Allocations: 3449)
+
+
+Started GET "/" for ::1 at 2021-09-06 20:10:58 -0700
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 21ms (Allocations: 7174)
+
+
+  
+NoMethodError (undefined method `html' for #<ApplicationController:0x00000000004e18>):
+  
+app/controllers/application_controller.rb:3:in `hello'
+Started GET "/" for ::1 at 2021-09-06 20:11:50 -0700
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 20ms (Allocations: 7131)
+
+
+  
+NoMethodError (undefined method `html' for #<ApplicationController:0x00000000005838>):
+  
+app/controllers/application_controller.rb:3:in `hello'
+Started GET "/" for ::1 at 2021-09-06 20:13:17 -0700
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 20ms (Allocations: 7131)
+
+
+  
+NoMethodError (undefined method `html' for #<ApplicationController:0x00000000006138>):
+  
+app/controllers/application_controller.rb:3:in `hello'
+Started GET "/" for ::1 at 2021-09-06 20:13:38 -0700
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 25ms (Allocations: 7152)
+
+
+  
+NoMethodError (undefined method `html' for #<ApplicationController:0x000000000069d8>):
+  
+app/controllers/application_controller.rb:3:in `hello'
+Started GET "/" for ::1 at 2021-09-06 20:13:59 -0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.7ms | Allocations: 45)
+Completed 200 OK in 17ms (Views: 12.4ms | Allocations: 772)
+
+
+Started GET "/" for ::1 at 2021-09-06 20:14:12 -0700
+  
+SyntaxError (/home/pi/Desktop/projects/rails/hello/app/controllers/application_controller.rb:3: syntax error, unexpected ':', expecting `end'
+        render html : "Hello World!"
+                    ^
+):
+  
+app/controllers/application_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/application_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/application_controller.rb:3: syntax error, unexpected ':', expecting `end'
+Started GET "/" for ::1 at 2021-09-06 20:14:33 -0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.3ms | Allocations: 40)
+Completed 200 OK in 11ms (Views: 7.3ms | Allocations: 595)
+
+
+Started GET "/" for ::1 at 2021-09-06 20:14:48 -0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.3ms | Allocations: 40)
+Completed 200 OK in 5ms (Views: 3.4ms | Allocations: 595)
+
+
+Started GET "/" for ::1 at 2021-09-06 22:25:09 -0700
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/home/pi/Desktop/projects/rails/hello/app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+class goodbyeController < ActionController::Base
+      ^~~~~~~~~~~~~~~~~
+/home/pi/Desktop/projects/rails/hello/app/controllers/goodbye_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+app/controllers/goodbye_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+app/controllers/goodbye_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+app/controllers/goodbye_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2021-09-06 22:25:35 -0700
+  
+SyntaxError (/home/pi/Desktop/projects/rails/hello/app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+class goodbyeController < ActionController::Base
+      ^~~~~~~~~~~~~~~~~
+):
+  
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+Started GET "/" for ::1 at 2021-09-06 22:26:15 -0700
+Processing by GoodbyeController#bye as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.7ms | Allocations: 46)
+Completed 200 OK in 27ms (Views: 10.5ms | Allocations: 1839)
+
+
+Started GET "/" for ::1 at 2021-09-06 22:26:25 -0700
+  
+SyntaxError (/home/pi/Desktop/projects/rails/hello/app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+class goodbyeController < ActionController::Base
+      ^~~~~~~~~~~~~~~~~
+):
+  
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
+app/controllers/goodbye_controller.rb:1: class/module name must be CONSTANT
